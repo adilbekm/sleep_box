@@ -58,7 +58,7 @@ You will also need some wires, glue, and tools, like a soldering iron and sand p
 
 Upload the code from "sketch_sleepbox.c" into the Arduino unit by connecting the unit to a computer and using the Arduino IDE (the browser version works great) to make the upload.
 
-[img1]: images/img_01.jpg
-[img2]: images/img_02.jpg
+[img1]: images/img_01s.jpg
+[img2]: images/img_02s.jpg
 [img3]:
 [img4]:
