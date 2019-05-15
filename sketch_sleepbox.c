@@ -14,7 +14,7 @@ int minsLeftActive = 0;
 int outPinLEDs = 5; // use pin #5 for LEDs
 
 void flash(int n, int m) {
-  /* flash LEDs n number of times pausing for m msecs between flashes */ 
+  /* flash LEDs n times pausing for m milliseconds between flashes */ 
   for (int i=0; i<n; i++) {
     analogWrite(outPinLEDs, 0);
     delay(m);

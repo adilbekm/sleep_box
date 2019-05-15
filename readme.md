@@ -2,11 +2,11 @@
 
 ![Sleep box][img1] ![Sleep box upside down][img2]
 
-This is a version of **Sleep Box** as invented and posted by [Mark Zuckerberg](https://www.facebook.com/zuck) on April 27, 2019. 
+This is a version of **Sleep Box** as posted by [Mark Zuckerberg](https://www.facebook.com/zuck) on April 27, 2019 on Facebook. 
 
 ## How Does It Work? ##
 
-This sleep box works the same way Mark described it in his post, with a couple additional functions I added myself. The sleep box emits a faint light at a time that you designate and stays lit for 1 hour. For example, if you set it to 6am, it activates at that time and stays lit until 7am.
+This sleep box works the same way Mark described in his post with a couple additional functions I added myself. It emits a faint light at a time that you designate and stays lit for 1 hour. For example, if you set it to 6am, it activates at that time and stays lit until 7am.
 
 When it is activated, it lights up smoothly starting at tiny intensity and reaching stable intensity a few minutes later. This should be helpful if you are sensative to light or sleep in a very dark room.
 
@@ -22,13 +22,15 @@ You press this button as many times as the number of hours from now that you wan
 
 #### Demo Mode ####
 
-If you press the button only 1 time, it will go into a demo mode. In demo mode, the sleep box lights up and down for about 1 minute. 
+If you press the button only once, it will go into demo mode. In demo mode, the sleep box lights up and down for about a minute. 
 
-Notice, because of the demo mode you can't set the box to active in 1 hour. So the soonest you can set it to is 2 hours from now (2 button presses). Also, the demo mode resets any previous setting so you will need to set the sleep box again.
+Notice, because a single press triggers the demo mode, you can't set the box to activate in 1 hour. So the earliest you can set it to is 2 hours (with 2 button presses). Also, the demo mode resets any previous setting so you will need to set the sleep box again.
 
 #### Does the Sleep Box Have a Clock? ####
 
-No, this sleep box doesn't have a clock or any other display. I tried to keep the design simple. Also, it kind of defeats the purpose to have a visible clock because Mark created it to avoid looking at the clock.
+No, this sleep box doesn't have a clock or any other display. I tried to keep the design simple. It would also defeat the purpose to have a visible clock because Mark created it to avoid looking at the clock.
+
+Also notice that there isn't an RTC module to keep track of time. 
 
 ## How Can I Make One? ##
 
@@ -56,7 +58,7 @@ The inner structure is made of 7 pieces glued together as follows:
 
 ![Inner structure][img5]
 
-I did not mention the center piece in **Get the Parts**. It can be made of any scrap pieace of wood (oak will work great) that you might have, but if you don't then include this in your shopping list.
+I did not mention the center piece in **Get the Parts**. It can be made of any scrap pieace of wood (oak works great) that you might have, but if you don't then include it in your shopping list.
 
 ### 4. Assemble the Electronics ###
 
@@ -64,11 +66,13 @@ Connect the electronics as follows:
 
 ![Circuit diagram][img6]
 
-Then attach everything to the inner structure as shown in a previous picture. You will need to glue the LEDs to the center piece or use a sticky material like I did. The battery and the arduino should fit tightly into the lower compartment without a glue. 
+Then attach everything to the inner structure as shown in a previous picture. You will need to glue the LEDs to the center piece or use a sticky material like I did. The battery and the Arduino should fit tightly in the lower compartment without a glue. 
 
 ### 5. Upload the Software ###
 
 Upload the code from "sketch_sleepbox.c" into the Arduino unit by connecting the unit to a computer and using the Arduino IDE (the browser version works great) to make the upload.
+
+And you are done.
 
 [img1]: images/img_01s.jpg
 [img2]: images/img_02s.jpg
